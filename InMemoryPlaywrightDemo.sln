@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35515885-9DDC-4A3A-8A63-EC5920F10208}"
 EndProject
@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{B9F11B
 	ProjectSection(SolutionItems) = preProject
 		src\devops\azure-pipeline.yml = src\devops\azure-pipeline.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesApp", "RazorPagesApp\RazorPagesApp.csproj", "{56B30174-57A7-4F8D-A78B-D9FDF944BDFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{76177CAC-5EF2-4149-A671-B9301DB5A62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76177CAC-5EF2-4149-A671-B9301DB5A62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76177CAC-5EF2-4149-A671-B9301DB5A62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B30174-57A7-4F8D-A78B-D9FDF944BDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B30174-57A7-4F8D-A78B-D9FDF944BDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B30174-57A7-4F8D-A78B-D9FDF944BDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B30174-57A7-4F8D-A78B-D9FDF944BDFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{7A1115E9-2F54-4F8E-837B-B3DEC384786D} = {1E510BCE-7CF0-49CF-AABA-72ADA1F50183}
 		{AFC9B7A3-BCBB-4E05-B71E-419C8B8150F5} = {35515885-9DDC-4A3A-8A63-EC5920F10208}
 		{76177CAC-5EF2-4149-A671-B9301DB5A62C} = {1E510BCE-7CF0-49CF-AABA-72ADA1F50183}
+		{56B30174-57A7-4F8D-A78B-D9FDF944BDFA} = {35515885-9DDC-4A3A-8A63-EC5920F10208}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E270E10E-F95C-4C8E-99B4-E7D233FE2316}

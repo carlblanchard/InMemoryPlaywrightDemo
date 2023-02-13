@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Employees.UITests
 {
-    public class EmployeeListTests : BaseTestClass<UI.Startup>
+    public class EmployeeListTests : BaseTestClass<Program>
     {
         [Test]
         public async Task When_ClickEmployeeMenuOption_Then_EmployeesPageDisplayed_Chrome()

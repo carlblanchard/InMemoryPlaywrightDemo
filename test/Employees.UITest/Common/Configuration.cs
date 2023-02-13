@@ -1,12 +1,11 @@
-﻿using System;
-using System.Linq;
-using AutomatedTesting.Factory;
+﻿using AutomatedTesting.Factory;
 using Employees.Data;
-using Employees.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Linq;
 
 namespace Employees.UITests.Common
 {
@@ -42,7 +41,7 @@ namespace Employees.UITests.Common
                     {
                         var scopedServices = scope.ServiceProvider;
 
-                        var logger = scopedServices.GetRequiredService<ILogger<AutomatedTestServerFactory<Startup>>>();
+                        var logger = scopedServices.GetRequiredService<ILogger<AutomatedTestServerFactory<Program>>>();
 
                         var employeeDbContext = scopedServices.GetRequiredService<EmployeeDbContext>();
                         employeeDbContext.Database.EnsureCreated();
